@@ -14,7 +14,7 @@ body {
 
 /* Sticky Footer */
 
-#container {
+#container-portfolio {
 	min-height: calc(100vh - 264px);
 }
 
@@ -86,13 +86,6 @@ nav ul li:first-child a {
 	border-left: 0;
 }
 
-.wrapper {
-	width: 960px;
-	margin: 0 auto;
-	clear: both;
-	overflow: hidden;
-}
-
 footer {
 	text-align: center;
 	background-color: #777;
@@ -105,13 +98,9 @@ footer {
 
 .module {
 	background-color: #fff;
+	clear: both;
 	padding: 30px;
 	border: 1px solid #ddd;
-}
-
-#content {
-	float: left;
-	width: 650px;
 }
 
 /* #social {
@@ -184,9 +173,10 @@ input[type=submit] {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
+  margin: 20px 0px 25px 10px;
+  /* overflow: auto; */
 }
+
 
 .work:nth-child(even) {
   margin-right: 40px;
@@ -201,7 +191,7 @@ input[type=submit] {
 .work h3 {
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  width: 91%;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
@@ -227,6 +217,14 @@ nav a:hover {
 .social:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+#portfolio-footer {
+	clear: both;
+}
+
+#content {
+	overflow: auto;
 }
 
 /* Media Querries */
